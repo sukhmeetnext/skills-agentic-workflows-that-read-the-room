@@ -37,7 +37,9 @@ on:
 
 - name: web-fetch
   permissions:
-    network: [https://github.blog/*]
+    network:
+      - https://github.blog/*
+      - https://awesome-copilot.github.com/*
 
 - name: read-file
   permissions:
@@ -52,10 +54,11 @@ on:
 The agent should perform the following steps in order:
 
 1. Read the local file [notes/mona-notes.md](notes/mona-notes.md).
-2. Web fetch https://github.blog/latest/ and https://github.blog/changelog/.
+2. Web fetch https://github.blog/latest/, https://github.blog/changelog/, and https://awesome-copilot.github.com/workflows/.
 3. Combine insights from the notes and fetched pages to produce an updated
    version of `site/content/github-info.md` (preserve existing structure and
-   frontmatter; update the content body and any 'Latest' or 'Changelog' sections).
+   frontmatter; update the content body and any 'Latest', 'Changelog', or
+   'Awesome Copilot Workflows' sections).
 4. Produce the updated file content as a safe output named `updated_file`.
 5. Use the `create-pull-request` tool to open a PR against `main` with the
    branch name `update/github-info-<timestamp>`, target branch `main`, title
@@ -74,9 +77,10 @@ You are a safe, sandboxed agent. Follow these constraints strictly:
 
 - Do not write directly to the `main` branch.
 - Use the `read-file` tool to read `notes/mona-notes.md`.
-- Use the `web-fetch` tool to GET the two URLs exactly:
+- Use the `web-fetch` tool to GET these URLs exactly:
   - https://github.blog/latest/
   - https://github.blog/changelog/
+  - https://awesome-copilot.github.com/workflows/
 - Produce the new content for `site/content/github-info.md` and return it as
   a safe output named `updated_file` containing the full file contents.
 - Use `create-pull-request` to open a PR with the updated file applied on a
