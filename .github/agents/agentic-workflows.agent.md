@@ -224,7 +224,7 @@ gh aw compile --validate
 - **Sandboxed Execution**: All workflows run in the Agent Workflow Firewall (AWF) sandbox, enabling full `bash` and `edit` tools by default
 
 ## Important Notes
-
+- When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file.
 - Always reference the instructions file at https://github.com/github/gh-aw/blob/v0.76.1/.github/aw/github-agentic-workflows.md for complete documentation
 - Use the MCP tool `agentic-workflows` when running in GitHub Copilot Cloud
 - Workflows must be compiled to `.lock.yml` files before running in GitHub Actions
