@@ -1,92 +1,39 @@
 ---
-name: Update GitHub Info
+name: update-github-info
+description: Draft website updates for Mona's GitHub Info site from official GitHub sources.
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *' # daily at 06:00 UTC
-  workflow_dispatch: {}
-
-# Agentic workflow frontmatter
-# This workflow is an agentic (gh-aw) workflow that reads local notes,
-# fetches GitHub blog pages, updates site/content/github-info.md, and
-# opens a pull request for Mona to review. It uses safe outputs and create-pull-request
+    - cron: '17 9 * * *'
+safe-outputs:
+  create-pull-request:
+    title-prefix: "[mona] "
+    draft: true
+    fallback-as-issue: false
+tools:
+  edit:
+  web-fetch:
+  network:
+    allowed:
+      - github.com
+      - github.blog
+      - awesome-copilot.github.com
 ---
 
-## Metadata
+# Update Mona's GitHub Info website
 
-- title: Update GitHub Info from blog and notes
-- description: |
-    Read local notes and the GitHub Blog to refresh site/content/github-info.md,
-    then propose changes via a pull request for Mona to review.
+Read `notes/mona-notes.md` before making changes.
 
-## Inputs
+Use these sources:
+- `notes/mona-notes.md`
+- GitHub Blog: https://github.blog/latest/
+- GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
-- name: run-mode
-  description: 'Run mode: "daily" or "on-demand" (workflow_dispatch)'
-  required: false
-  default: 'daily'
+Update `site/content/github-info.md` with concise, practical updates for readers
+and include source context when content comes from the GitHub Blog, GitHub Changelog,
+or Awesome Copilot workflows.
 
-## Tools
-
-# Grant the agent edit access to the repo via the `repo` tool and allow
-# web fetch + read-file + create-pull-request. Use safe-outputs so the agent
-# returns the proposed file content rather than writing directly to `main`.
-
-- name: repo
-  permissions:
-    contents: write
-
-- name: web-fetch
-  permissions:
-    network:
-      - https://github.blog/*
-      - https://awesome-copilot.github.com/*
-
-- name: read-file
-  permissions:
-    path: [notes/mona-notes.md]
-
-- name: create-pull-request
-  permissions:
-    safe-outputs: true
-
-## Steps
-
-The agent should perform the following steps in order:
-
-1. Read the local file [notes/mona-notes.md](notes/mona-notes.md).
-2. Web fetch https://github.blog/latest/, https://github.blog/changelog/, and https://awesome-copilot.github.com/workflows/.
-3. Combine insights from the notes and fetched pages to produce an updated
-   version of `site/content/github-info.md` (preserve existing structure and
-   frontmatter; update the content body and any 'Latest', 'Changelog', or
-   'Awesome Copilot Workflows' sections).
-4. Produce the updated file content as a safe output named `updated_file`.
-5. Use the `create-pull-request` tool to open a PR against `main` with the
-   branch name `update/github-info-<timestamp>`, target branch `main`, title
-   `chore: update GitHub info (automated)`, and body describing the changes.
-
-## Usage / Run Notes
-
-This workflow runs daily (schedule) and can be triggered manually via
-workflow_dispatch. The agent has edit access through the `repo` tool
-configuration above, but changes are proposed using `create-pull-request`
-with `safe-outputs` so updates require Mona to merge.
-
-## Agent Prompt
-
-You are a safe, sandboxed agent. Follow these constraints strictly:
-
-- Do not write directly to the `main` branch.
-- Use the `read-file` tool to read `notes/mona-notes.md`.
-- Use the `web-fetch` tool to GET these URLs exactly:
-  - https://github.blog/latest/
-  - https://github.blog/changelog/
-  - https://awesome-copilot.github.com/workflows/
-- Produce the new content for `site/content/github-info.md` and return it as
-  a safe output named `updated_file` containing the full file contents.
-- Use `create-pull-request` to open a PR with the updated file applied on a
-  new branch. Include a concise summary of what changed and sources used.
-
-## Outputs
-
-- updated_file: |
-    The full contents of the updated `site/content/github-info.md` file.
+Open a pull request for Mona to review.
+Use a pull request title that mentions Mona or GitHub Info.
+Do not write directly to `main`; rely on `safe-outputs` with `create-pull-request`.
