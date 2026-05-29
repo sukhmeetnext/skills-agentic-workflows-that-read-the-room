@@ -5,6 +5,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'
+network:
+  allowed:
+    - github.com
+    - github.blog
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -13,11 +18,6 @@ safe-outputs:
 tools:
   edit:
   web-fetch:
-  network:
-    allowed:
-      - github.com
-      - github.blog
-      - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
