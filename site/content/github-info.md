@@ -17,4 +17,9 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **Copilot Usage Metrics API** now supports cohorts for AI adoption, helping organizations track Copilot usage trends. ([Changelog, May 29, 2026](https://github.blog/changelog/2026-05-29-copilot-usage-metrics-api-adds-cohorts-for-ai-adoption))
+- **Hard budget limits** are now available for GitHub Advanced Security, giving admins more control over spending. ([Changelog, May 28, 2026](https://github.blog/changelog/2026-05-28-hard-budget-limits-now-available-for-github-advanced-security))
+- **Claude Opus 4.8** is generally available for GitHub Copilot, expanding LLM options for Copilot users. ([Changelog, May 28, 2026](https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot))
+- **Copilot memory** now has more controls for deletion scope and CLI integration. ([Changelog, May 26, 2026](https://github.blog/changelog/2026-05-26-copilot-memory-has-more-controls-for-deletion-scope-and-the-copilot-cli))
+
+For more, see the [GitHub Blog](https://github.blog/latest/) and [Changelog](https://github.blog/changelog/).
