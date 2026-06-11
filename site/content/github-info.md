@@ -17,4 +17,6 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **Making secret scanning more trustworthy:** GitHub is reducing false positives in secret scanning at scale. ([GitHub Blog](https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/), June 2026)
+- **Bot-created pull requests can run workflows if approved:** Pull requests created by github-actions[bot] can now run CI/CD workflows with user approval, improving automation while maintaining security. ([GitHub Changelog](https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved), June 2026)
+- **Awesome Copilot Workflows:** Explore community-contributed agentic workflows for GitHub Copilot at [Awesome Copilot Workflows](https://awesome-copilot.github.com/workflows/).
