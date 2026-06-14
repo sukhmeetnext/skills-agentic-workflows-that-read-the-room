@@ -17,4 +17,6 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- [GitHub Blog] GitHub Copilot Workspace is now generally available, offering an AI-powered developer environment for rapid prototyping and PRs. (Source: github.blog)
+- [Changelog] GitHub Actions now supports reusable workflows with improved matrix builds and caching. (Source: github.blog/changelog)
+- [Awesome Copilot Workflows] Explore 'Daily Issues Report', 'Pull Request Labeler', and 'Dependency Review' for automating repository management. (Source: awesome-copilot.github.com/workflows)
