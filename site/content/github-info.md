@@ -17,4 +17,14 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+### Awesome Copilot Workflows (source: https://awesome-copilot.github.com/workflows/)
+- **Daily Issues Report**: Generates a daily summary of open issues and recent activity as a GitHub issue.
+- **OSPO Contributors Report**: Monthly contributor activity metrics across an organization's repositories.
+- **OSPO Organization Health Report**: Weekly health report for a GitHub organization, surfacing stale issues/PRs, merge time analysis, contributor leaderboards, and actionable items.
+- **OSPO Stale Repository Report**: Identifies inactive repositories and recommends archival.
+- **OSS Release Compliance Checker**: Analyzes a repository for open source release requirements and posts a compliance report.
+- **Relevance Check**: Slash command to evaluate if an issue or PR is still relevant.
+- **Relevance Summary**: Summarizes all open issues and PRs with a /relevance-check response into a single issue.
+- **Weekly Comment Sync**: Finds stale code comments or README snippets, syncs updates, and opens a draft PR if needed.
+
+(See Awesome Copilot Workflows for more practical automations.)
