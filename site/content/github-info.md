@@ -17,4 +17,7 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for AI Code Assistants** ([GitHub Blog](https://github.blog/enterprise-software/collaboration/)).
+- **Retrieval-Augmented Generation (RAG) for unstructured data**: Learn how to use RAG to capture more insights ([GitHub Blog](https://github.blog/ai-and-ml/llms/unlocking-the-power-of-unstructured-data-with-rag/)).
+- **Enterprise guide to AI-powered DevSecOps**: Address DevSecOps challenges with AI and automation ([GitHub Blog](https://resources.github.com/security/the-enterprise-guide-to-ai-powered-devsecops/)).
+- **Awesome Copilot Workflows**: Explore community-contributed agentic workflows, like daily issue reports and relevance checks ([Awesome Copilot Workflows](https://awesome-copilot.github.com/workflows/)).
