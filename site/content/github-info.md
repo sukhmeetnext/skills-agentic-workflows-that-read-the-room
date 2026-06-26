@@ -17,4 +17,7 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- [GitHub Blog] GitHub Desktop introduces a new Current Worktree menu, making it easier to manage multiple worktrees and branches visually. (Source: GitHub Changelog)
+- [Awesome Copilot Workflows] Explore agentic workflows: automate daily issue reports, PR triage, and more with Copilot-powered GitHub Actions. See: https://awesome-copilot.github.com/workflows/
+
+For more, visit the [GitHub Blog](https://github.blog/latest/) and [Changelog](https://github.blog/changelog/).
