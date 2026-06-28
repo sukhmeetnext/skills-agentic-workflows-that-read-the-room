@@ -17,4 +17,7 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **Daily Issues Report workflow**: Generates a daily summary of open issues and recent activity as a GitHub issue. [Source: Awesome Copilot workflows]
+- **Agentic Workflows**: Explore AI-powered repository automations that run coding agents in GitHub Actions. [Source: Awesome Copilot workflows]
+- For the latest features, improvements, and fixes across GitHub products, check the [GitHub Changelog](https://github.blog/changelog/).
+- For practical ideas and inspiration, visit the [GitHub Blog](https://github.blog/latest/).
