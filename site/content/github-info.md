@@ -17,4 +17,8 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **GitHub Changelog**: Stay up to date with the latest features, improvements, and fixes across GitHub products at [GitHub Changelog](https://github.blog/changelog/). (Source: GitHub Changelog)
+- **GitHub Blog**: For practical tips, ideas, and inspiration, check [GitHub Blog](https://github.blog/latest/). (Source: GitHub Blog)
+- **Awesome Copilot Workflows**: Explore community-contributed, AI-powered automations for GitHub repositories at [Awesome Copilot Workflows](https://awesome-copilot.github.com/workflows/). (Source: Awesome Copilot Workflows)
+
+Summaries are kept concise and practical. For more, visit the linked sources.
