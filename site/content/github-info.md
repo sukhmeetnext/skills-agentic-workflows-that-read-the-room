@@ -17,4 +17,7 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **Copilot Model Picker**: GitHub Copilot now lets you choose between multiple AI models, including Claude Sonnet 5 (source: [GitHub Changelog](https://github.blog/changelog/)).
+- **Awesome Copilot Workflows**: Explore community-contributed agentic workflows for automating repository tasks with Copilot in GitHub Actions (source: [Awesome Copilot Workflows](https://awesome-copilot.github.com/workflows/)).
+
+Stay tuned to the [GitHub Blog](https://github.blog/latest/) and [Changelog](https://github.blog/changelog/) for more updates.
