@@ -17,4 +17,16 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+### GitHub Blog Highlights (github.blog)
+- Stay updated with the [GitHub Blog](https://github.blog/latest/) for new features, best practices, and developer stories.
+
+### GitHub Changelog (github.blog/changelog)
+- Track all recent platform changes at the [GitHub Changelog](https://github.blog/changelog/).
+
+### Awesome Copilot Workflows
+- Explore [Awesome Copilot Workflows](https://awesome-copilot.github.com/workflows/) for community-driven, agentic automations like:
+  - Daily Issues Report: Summarizes open issues and recent activity as a GitHub issue.
+  - OSPO Contributors Report: Tracks open source contributors for your organization.
+  - Dependency Update Notifier: Alerts you to dependency changes in your repos.
+
+_Source: GitHub Blog, GitHub Changelog, Awesome Copilot Workflows_
