@@ -17,4 +17,6 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- [Awesome Copilot Workflows] Community-contributed agentic workflows are now available. See the "Daily Issues Report" workflow for automated daily summaries of open issues and recent activity. (Source: [Awesome Copilot Workflows](https://awesome-copilot.github.com/workflows/))
+
+- Stay tuned to the [GitHub Blog](https://github.blog/latest/) and [Changelog](https://github.blog/changelog/) for the latest platform features and improvements.
