@@ -17,4 +17,6 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- [How AI code generation works](https://github.blog/ai-and-ml/generative-ai/how-ai-code-generation-works/) — Learn how AI code generation can improve your developer experience. (Source: [GitHub Blog](https://github.blog/latest/))
+- [Get started with GitHub documentation](https://docs.github.com/en/get-started) — Learn how to start building, shipping, and maintaining software with GitHub. (Source: [GitHub Blog](https://github.blog/latest/))
+- [Copilot updates](https://github.blog/changelog/2026/?label=copilot) — See the latest Copilot features and improvements. (Source: [GitHub Changelog](https://github.blog/changelog/))
