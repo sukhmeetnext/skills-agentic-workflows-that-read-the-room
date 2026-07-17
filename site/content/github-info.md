@@ -17,4 +17,6 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- GitHub Copilot Workspace is now generally available, making it easier to automate and manage workflows. [Source: GitHub Blog]
+- GitHub Actions added new reusable workflow features for better CI/CD pipeline management. [Source: GitHub Changelog]
+- Awesome Copilot Workflows highlights: "Automate Issue Triage", "PR Labeler", "Release Drafter"—see more at https://awesome-copilot.github.com/workflows/
