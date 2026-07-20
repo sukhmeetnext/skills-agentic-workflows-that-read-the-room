@@ -17,4 +17,8 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- [How AI code generation works](https://github.blog/ai-and-ml/generative-ai/how-ai-code-generation-works/) — Explore the capabilities and benefits of AI code generation and how it can improve your developer experience. (Source: GitHub Blog)
+- [How we use GitHub to be more productive, collaborative, and secure](https://github.blog/engineering/how-we-use-github-to-be-more-productive-collaborative-and-secure/) — Insights from GitHub’s own engineering and security teams on productivity, collaboration, and shifting security left. (Source: GitHub Blog)
+- [Unlocking the power of unstructured data with RAG](https://github.blog/ai-and-ml/llms/unlocking-the-power-of-unstructured-data-with-rag/) — Learn how to use retrieval-augmented generation (RAG) to capture more insights. (Source: GitHub Blog)
+
+For more, see the [GitHub Blog](https://github.blog/latest/) and [Changelog](https://github.blog/changelog/).
