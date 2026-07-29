@@ -17,4 +17,5 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- No new public blog or changelog posts detected as of July 2026. Check https://github.blog/latest/ and https://github.blog/changelog/ for the most recent updates.
+- Awesome Copilot workflows site is currently unavailable (404). For curated Copilot workflow examples, check back at https://awesome-copilot.github.com/workflows/.
