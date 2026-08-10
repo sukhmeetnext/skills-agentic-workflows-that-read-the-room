@@ -17,4 +17,10 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **GitHub Copilot weekly releases**: Stay up to date with Copilot improvements. ([Changelog](https://github.blog/changelog/))
+- **Enterprises can now install third-party GitHub Apps**: Expanding integration options. ([Changelog](https://github.blog/changelog/))
+- **Copilot impact dashboard adds ROI section**: Track Copilot's value for your team. ([Changelog](https://github.blog/changelog/))
+- **Guide to slash commands in Copilot app**: Learn to boost productivity with new Copilot slash commands. ([Blog](https://github.blog/latest/))
+- **How GitHub legal uses Copilot CLI**: Real-world Copilot CLI workflow improvements. ([Blog](https://github.blog/latest/))
+
+_Source: GitHub Blog & Changelog, August 2026_
