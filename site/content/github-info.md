@@ -17,4 +17,9 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **GitHub Copilot App**: GitHub now offers a standalone Copilot app for streamlined AI coding assistance. [Source: GitHub Blog]
+- **GitHub Universe**: Registration is open for GitHub Universe, the annual conference for developers and teams. [Source: GitHub Blog]
+- **Changelog**: For the latest features, improvements, and fixes, check the [GitHub Changelog](https://github.blog/changelog/).
+- **Copilot Workflows**: Explore curated Copilot workflows at [Awesome Copilot Workflows](https://awesome-copilot.github.com/workflows/).
+
+(Updates summarized from the GitHub Blog, Changelog, and Awesome Copilot Workflows.)
