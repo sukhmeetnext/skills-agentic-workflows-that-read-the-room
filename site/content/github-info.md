@@ -17,4 +17,7 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **Agent Plugins 1.0** is now available for VS Code, Copilot CLI, and the Copilot app. Build a plugin once and use it across all compatible agent clients. [Changelog, 2026-08-12](https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app)
+- **GitHub availability report: July 2026** is published. [GitHub Blog, 2026-08-12](https://github.blog/news-insights/company-news/github-availability-report-july-2026/)
+
+(Sources: GitHub Blog, GitHub Changelog)
