@@ -17,4 +17,7 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **How to bring your software delivery workflow into GitHub with agent apps** ([GitHub Blog, Aug 2026](https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/))
+- **Multiple redirect URIs and token refresh for OAuth apps** ([GitHub Changelog, Aug 2026](https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps))
+
+For more, see the [GitHub Blog](https://github.blog/latest/) and [GitHub Changelog](https://github.blog/changelog/).
