@@ -17,4 +17,9 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
+- **August 2026:**
+  - [Changelog] Collaboration tools improvements and new features announced. [Source: GitHub Changelog]
+  - [Blog] New guides on AI & ML, Generative AI, and Copilot best practices. [Source: GitHub Blog]
+  - [Docs] Refreshed "Get started with GitHub" documentation for beginners. [Source: GitHub Blog]
+
 - Created branch 'create-mona-updater' to add an updater for Mona.
