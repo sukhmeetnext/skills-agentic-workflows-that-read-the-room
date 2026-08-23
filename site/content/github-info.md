@@ -17,4 +17,10 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- **Aug 2026:**
+  - [Copilot memory and Ollama in GitHub Copilot for JetBrains](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains) (GitHub Changelog)
+  - [Automatically migrate branch protection rules to repository rulesets](https://github.blog/changelog/2026-08-11-automatically-migrate-branch-protection-rules-to-repository-rulesets) (GitHub Changelog)
+  - [Upcoming deprecation of MAI-Code-1-Flash](https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash) (GitHub Changelog)
+  - [GitHub Universe 2026 announced for Oct 28-29](https://githubuniverse.com/) (GitHub Blog)
+
+- See [Awesome Copilot workflows](https://awesome-copilot.github.com/workflows/) for practical Copilot automation ideas.
