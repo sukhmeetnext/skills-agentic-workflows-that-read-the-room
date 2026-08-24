@@ -17,4 +17,9 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- Created branch 'create-mona-updater' to add an updater for Mona.
+- [Changelog] GitHub improved block tools for markdown editing (Aug 2026).
+- [Blog] GitHub continues to publish practical guides for developers (see github.blog/latest/).
+- [Changelog] Regular updates and fixes are published at github.blog/changelog/.
+- [Awesome Copilot Workflows] Explore curated Copilot workflows at https://awesome-copilot.github.com/workflows/.
+
+Sources: github.blog, github.blog/changelog, awesome-copilot.github.com/workflows/
